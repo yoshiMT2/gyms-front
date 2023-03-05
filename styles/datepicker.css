@@ -45,9 +45,9 @@
 .saturday {
   color:#0000FF;
 }
-/* .saturday:focus {
+.saturday:focus {
   color:white;
-} */
+}
 .react-calendar-timeline .rct-header-root{
   background-color: transparent;
 }

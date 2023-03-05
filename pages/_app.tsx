@@ -1,5 +1,7 @@
-import '../styles/datepicker.css'
 import '@/styles/globals.css'
+import 'react-datepicker/dist/react-datepicker.css'
+import 'react-calendar-timeline/lib/Timeline.css'
+import '../styles/datepicker.css'
 
 import type { AppProps } from 'next/app'
 
