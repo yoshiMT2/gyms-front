@@ -1,7 +1,6 @@
 import Timeline, { TimelineHeaders, SidebarHeader, DateHeader } from 'react-calendar-timeline';
 import 'react-calendar-timeline/lib/Timeline.css'
 import moment from 'moment'
-import style  from './datepicker.module.css'
 
 
 
