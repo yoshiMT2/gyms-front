@@ -1,0 +1,54 @@
+/* .react-calendar, */
+.react-calendar {
+  border: transparent;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.react-datepicker__day--weekend {
+  color: red;
+}
+.react-datepicker__day--weekend:focus, .react-datepicker__day--weekend:active {
+  color: white;
+}
+
+.react-datepicker {
+  font-size: 0.8em;
+}
+
+.react-datepicker__header {
+  padding-top: 0.1em;
+  background-color: #edf1ff;
+  border: transparent;
+  border-radius: 0px;
+}
+.react-datepicker__month {
+  margin: 0.4em 1.6em 0.2em;
+}
+.react-datepicker__day-name, .react-datepicker__day {
+  width: 1.9em;
+  line-height: 1.4em;
+  margin: 0.1em;
+}
+.react-datepicker__current-month {
+  font-size: 1em;
+}
+.react-datepicker__navigation {
+  top: 0.2em;
+}
+.react-datepicker__navigation--previous {
+  left: -0.4em;
+}
+.react-datepicker__navigation--next {
+  right: -0.4em;
+}
+
+.saturday {
+  color:#0000FF;
+}
+/* .saturday:focus {
+  color:white;
+} */
+.react-calendar-timeline .rct-header-root{
+  background-color: transparent;
+}
+
