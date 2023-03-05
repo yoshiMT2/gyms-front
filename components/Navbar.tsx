@@ -32,7 +32,7 @@ const Navbar = () => {
     { id: 13, name: '食事', href: '' },
   ]
 
-  function toggleTabs(tabId) {
+  function toggleTabs(tabId: number | ((prev: number) => number)) {
     setCurrentTab(tabId)
     console.log(tabId)
   }

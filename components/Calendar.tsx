@@ -21,8 +21,7 @@ const Cal = () => {
       <DatePicker
         selected={value}
         dayClassName = {(date) => date.getDay() === 6 ? 'saturday' : 'notsaturday' }
-        onChange={setValue}
-        // className = 'date-picker'
+        onChange={(date) => date ? setValue(date) : null}
         calendarClassName = 'react-calendar'
         inline
         monthsShown={3}
